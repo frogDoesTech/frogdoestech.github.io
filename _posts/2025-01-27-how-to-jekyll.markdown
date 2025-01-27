@@ -65,7 +65,7 @@ Now open your browser and go to `127.0.0.1:4000`. This is your new site. It look
 
 Go to the `_config.yml` file in the project folder.
 
-This has a bunch of global settings for your blog. The file is pretty self explanatory, you can edit the title and description of your site, add you email and social links.
+This has a bunch of global settings for your blog. The file is pretty self explanatory, you can edit the title and description of your site, add your email and social links.
 
 You can edit those settings and then run the site again with `bundle exec jekyll serve`.
 
@@ -81,7 +81,7 @@ Once you edit your post, or add a new one, you will be able to access it from th
 
 Jekyll has a bunch of other possibilities. If you look into the `_config.yml` file, you will see that the default theme for your site is `minima`. But there are other themes you can apply to your site.
 
-You can also override the theme layout and styles to create your own custom (or semi-custom) theme.
+You can also override the theme layout and styles to create your own custom (or semi-custom) theme. There is definitely more to explore so I recommend reading through some [Jekyll documentation](https://jekyllrb.com/docs/) on ideas how you can upgrade your site.
 
 All of that is outside of the scope of this article. I may create an article in the future going into more Jekyll customization.
 
@@ -93,6 +93,6 @@ Again, since it's a static site, (almost) nothing can go wrong.
 
 ## Summary
 
-By now you (and I as well) should have a Jekyll website ready to start blogging. Jekyll has aged a bit since I first used it, and I will likely look for alternatives to it soon. For now though, I'm happy I was able to bootstrap my blog lightning-fast.
+By now you (and I as well) should have a Jekyll website all set up and ready. Maybe not enough to disrupt the world of tech, but good enough to start blogging.
 
-Time to get blogging now. Rrrrrribit!
+Type your heart out <3
