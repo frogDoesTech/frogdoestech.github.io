@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to quick-start a Jekyll blog | frog does tech</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="How to quick-start a Jekyll blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I love Jekyll." />
+<meta property="og:description" content="I love Jekyll." />
+<link rel="canonical" href="http://localhost:4000/jekyll/2025/01/27/how-to-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/2025/01/27/how-to-jekyll.html" />
+<meta property="og:site_name" content="frog does tech" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-27T12:23:42+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to quick-start a Jekyll blog" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-27T12:23:42+01:00","datePublished":"2025-01-27T12:23:42+01:00","description":"I love Jekyll.","headline":"How to quick-start a Jekyll blog","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/2025/01/27/how-to-jekyll.html"},"url":"http://localhost:4000/jekyll/2025/01/27/how-to-jekyll.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="frog does tech" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">frog does tech</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">How to quick-start a Jekyll blog</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-01-27T12:23:42+01:00" itemprop="datePublished">Jan 27, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I love Jekyll.</p>
+
+<p>I’ve used it around 2020 to create an underground game review blog, and I loved how simple it is to maintain a site Jekyll.</p>
+
+<p>Jekyll is not really a “blogging” tool. Rather, it’s a static site generator that happens to be great for blogging. By now it’s a bit dated, but it’s still possible to set up a site with Jekyll insanely fast if you want to.</p>
+
+<p>So as I’m just now setting up my own “frog does tech” blog, I thought I might as well write down a quick-start guide on creating a Jekyll blog, especially that I have not done it in a while.</p>
+
+<p>Here goes.</p>
+
+<h2 id="1-install-prerequisites-for-jekyll">1. Install prerequisites for Jekyll</h2>
+
+<h3 id="install-ruby">Install ruby.</h3>
+<p>Jekyll is a Ruby Gem. If you don’t know what that is, gems are basically self-contained libraries of Ruby code you can execute without injecting the code itself into your program. To run a gem, you need to have Ruby installed on your device.</p>
+
+<p>Jekyll requires Ruby version 2.5.0. Type <code class="language-plaintext highlighter-rouge">ruby -v</code> into your terminal right now and hit enter. If you have version 2.5.0 or above, you’re good. If you get a big ugly red error, most likely you don’t have Ruby installed. Go to Ruby’s site and grab the right distribution <a href="https://www.ruby-lang.org/en/downloads/">here</a>. If you are on Windows like me, you can just use <a href="https://rubyinstaller.org/downloads/">RubyInstaller</a>.</p>
+
+<h3 id="update-your-ruby-gems">Update your Ruby Gems</h3>
+
+<p>If you already have Ruby installed, but you have not updated the gems for a while, you can do that by running this in your terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem update --system
+</code></pre></div></div>
+<p>This should update your gems, and give you a nice <code class="language-plaintext highlighter-rouge">RubyGems system software updated</code> message at the end.</p>
+
+<h2 id="2-install-jekyll">2. Install Jekyll</h2>
+
+<p>Install the Jekyll gem in your terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll bundler
+</code></pre></div></div>
+
+<p>That is going to install Jekyll proper on your device. It should return a nice <code class="language-plaintext highlighter-rouge">x gems installed</code> message for you at the end. Once it does that you’re ready to create a Jekyll site.</p>
+
+<h2 id="3-create-a-jekyll-site">3. Create a Jekyll site</h2>
+
+<p>Go to the parent folder where you want to create your site and terminal this in:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new sitename
+</code></pre></div></div>
+
+<p>That will create a <code class="language-plaintext highlighter-rouge">sitename</code> folder with the project files inside. Once the process is done, you’re ready to go.</p>
+
+<h2 id="4-run-your-empty-jekyll-site">4. Run your empty Jekyll site</h2>
+
+<p>Go into the folder where you created your new Jekyll site. Type this into the terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div></div>
+
+<p>Now open your browser and go to <code class="language-plaintext highlighter-rouge">127.0.0.1:4000</code>. This is your new site. It looks lame and empty, but there is a few things you can do about that.</p>
+
+<h2 id="5-customize-your-site">5. Customize your site</h2>
+
+<p>Go to the <code class="language-plaintext highlighter-rouge">_config.yml</code> file in the project folder.</p>
+
+<p>This has a bunch of global settings for your blog. The file is pretty self explanatory, you can edit the title and description of your site, add you email and social links.</p>
+
+<p>You can edit those settings and then run the site again with <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>.</p>
+
+<h2 id="6-write-your-first-article">6. Write your first article</h2>
+
+<p>In the <code class="language-plaintext highlighter-rouge">_posts</code> folder, Jekyll is going to store posts to display in the blog feed. There should be a sample article there right now.</p>
+
+<p>You can go ahead and edit that, and also make duplicates of that file for any new post that you want to add to the site. Every post should have the same filename format (yyyy-mm-dd-some-title) and a <code class="language-plaintext highlighter-rouge">.markdown</code> extension. This way Jekyll will be able to process your posts into static HTML pages.</p>
+
+<p>Once you edit your post, or add a new one, you will be able to access it from the “Posts” feed on your site’s home page.</p>
+
+<h2 id="7-there-is-more">7. There is more</h2>
+
+<p>Jekyll has a bunch of other possibilities. If you look into the <code class="language-plaintext highlighter-rouge">_config.yml</code> file, you will see that the default theme for your site is <code class="language-plaintext highlighter-rouge">minima</code>. But there are other themes you can apply to your site.</p>
+
+<p>You can also override the theme layout and styles to create your own custom (or semi-custom) theme.</p>
+
+<p>All of that is outside of the scope of this article. I may create an article in the future going into more Jekyll customization.</p>
+
+<h2 id="8-hosting-your-site">8. Hosting your site</h2>
+
+<p>The beauty of Jekyll as a static site generator is that you can just grab the <code class="language-plaintext highlighter-rouge">_site</code> folder and host that anywhere as a static site. You can for example upload it to a GitHub repository and host with GitHub pages, or host it with pretty much any other service or hosting provider.</p>
+
+<p>Again, since it’s a static site, (almost) nothing can go wrong.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>By now you (and I as well) should have a Jekyll website ready to start blogging. Jekyll has aged a bit since I first used it, and I will likely look for alternatives to it soon. For now though, I’m happy I was able to bootstrap my blog lightning-fast.</p>
+
+<p>Time to get blogging now. Rrrrrribit!</p>
+
+  </div><a class="u-url" href="/jekyll/2025/01/27/how-to-jekyll.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">frog does tech</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">frog does tech</li><li><a class="u-email" href="mailto:frogdoestech@gmail.com">frogdoestech@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/frogDoesTech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">frogDoesTech</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>I&#39;m a silly frog that does tech. I have been working in IT for 10 years. Coding, project and product management, some testing - a frog of all trades.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

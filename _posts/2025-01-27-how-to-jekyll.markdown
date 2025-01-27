@@ -84,3 +84,15 @@ Jekyll has a bunch of other possibilities. If you look into the `_config.yml` fi
 You can also override the theme layout and styles to create your own custom (or semi-custom) theme.
 
 All of that is outside of the scope of this article. I may create an article in the future going into more Jekyll customization.
+
+## 8. Hosting your site
+
+The beauty of Jekyll as a static site generator is that you can just grab the `_site` folder and host that anywhere as a static site. You can for example upload it to a GitHub repository and host with GitHub pages, or host it with pretty much any other service or hosting provider.
+
+Again, since it's a static site, (almost) nothing can go wrong.
+
+## Summary
+
+By now you (and I as well) should have a Jekyll website ready to start blogging. Jekyll has aged a bit since I first used it, and I will likely look for alternatives to it soon. For now though, I'm happy I was able to bootstrap my blog lightning-fast.
+
+Time to get blogging now. Rrrrrribit!
