@@ -11,16 +11,25 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+  {%- if page.lyket-id -%}
+  <p>Please clap:</p>
+  <div data-lyket-type="clap" data-lyket-namespace="frogblog" data-lyket-id="{{ page.lyket-id }}"
+    data-lyket-color-primary="#333" data-lyket-color-text="#ddd" data-lyket-color-icon="#88C070"
+    data-lyket-color-highlight="#ddd"></div>
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

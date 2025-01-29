@@ -3,6 +3,7 @@ layout: post
 title:  "How to quick-start a Jekyll blog"
 date:   2025-01-27 12:23:42 +0100
 categories: jekyll
+lyket-id: how-to-jekyll
 ---
 
 I love Jekyll.
