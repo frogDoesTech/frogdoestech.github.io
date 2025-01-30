@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-29T22:20:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">frog does tech</title><subtitle>I&apos;m a silly frog that does tech. I have been working in IT for 10 years. Coding, project and product management, some testing - a frog of all trades.</subtitle><entry><title type="html">Adding likes to static site with Lyket</title><link href="http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket.html" rel="alternate" type="text/html" title="Adding likes to static site with Lyket" /><published>2025-01-29T05:00:00+01:00</published><updated>2025-01-29T05:00:00+01:00</updated><id>http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket</id><content type="html" xml:base="http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket.html"><![CDATA[<p>If you scroll down to the bottom of this post, you will see a “clap” button.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-30T09:36:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">frog does tech</title><subtitle>I&apos;m a silly frog that does tech. I have been working in IT for 10 years. Coding, project and product management, some testing - a frog of all trades.</subtitle><entry><title type="html">5 reasons why I hate cookies</title><link href="http://localhost:4000/webdev/2025/01/30/i-hate-cookies.html" rel="alternate" type="text/html" title="5 reasons why I hate cookies" /><published>2025-01-30T00:00:00+01:00</published><updated>2025-01-30T00:00:00+01:00</updated><id>http://localhost:4000/webdev/2025/01/30/i-hate-cookies</id><content type="html" xml:base="http://localhost:4000/webdev/2025/01/30/i-hate-cookies.html"><![CDATA[<p>I don’t like cookies.</p>
+
+<p>I don’t like the real life ones, because they fuel my sugar addiction and taste way too good to put down.</p>
+
+<p>AND I don’t like the web ones. You know,  the “third-party” ones that triggered the deluge of cookie consent pop-ups you get wherever you go on the web these days.</p>
+
+<p>While I understand there are legitimate reasons to use cookies in web applications, such as <a href="https://www.geeksforgeeks.org/cookie-based-authentication-vs-token-based-authentication/">cookie-based authentication</a>, I want to talk specifically about my hatred of tracking cookies, the majority of which are used for targeted ads and “consumer profiling”.</p>
+
+<p>Here is my list of 5 (good) reasons why I despise tracking cookies:</p>
+
+<h2 id="1-they-make-the-web-more-ugly">1. They make the web more ugly</h2>
+
+<p>Listen I am not going to complain about the idea behind GDPR or consent pop-ups. More privacy measures is better, and I don’t mind a consent pop-up however ugly, as long as it does the job and actually allows you to opt-out of cookies. BEFORE receiving them, thank you.</p>
+
+<p>What I am going to complain about is that, because almost every site out there uses cookies (again, many of them without a good reason), the consent pop-ups have gotten a slog to get through sometimes. AND they have objectively made the web an uglier, less usable space.</p>
+
+<p>Remedy? Less cookies.</p>
+
+<h2 id="2-i-dont-like-to-constantly-be-reminded-about-being-tracked">2. I don’t like to constantly be reminded about being tracked</h2>
+
+<p>I don’t sell human organs online. Or engage in other types of illegal activity. So I don’t think the fact that I’m being tracked online is an existential threat to me in any way.</p>
+
+<p>But I still don’t like being reminded at every turn that I am being monitored by a regimen of advertising companies and tech corporations that track my every move. It feels weird. You’re being gross. Stop.</p>
+
+<p>Being online these days feels a bit like walking through a street in some dystopian country where every building is equipped with a monitoring camera. It’s not that I have something to hide. But I would like to know that I CAN hide something if I really wanted to.</p>
+
+<h2 id="3-people-use-cookies-without-a-real-need-for-them">3. People use cookies without a real need for them</h2>
+
+<p>I can kind of understand that there are “certain businesses” who have a “legitimate interest” in tracking you online. And by legitimate interest I mean they make money off of your data. That’s not what I would like to do for a living but to each their own.</p>
+
+<p>What I don’t really get is the fact that a lot of people out there, like hobbyist content creators or web devs will use a bunch of services on their sites with little consideration for whether that will store cookies on your machine.</p>
+
+<p>Privacy online might not mean a ton to you, but it does to other people. Let’s all be a bit more mindful?</p>
+
+<h2 id="4-consent-banners-are-obtuse-and-misleading">4. Consent banners are obtuse and misleading</h2>
+
+<p>This relates somewhat to what I said in point 2. Consent banners for cookies will say stuff like “we care about your privacy”. Meanwhile the implementation on the site dastardly saves cookies on your machine before you even had a chance to consent.</p>
+
+<p>There was a <a href="https://dl.acm.org/doi/10.1145/3313831.3376321">study done in 2020</a> which found that policies on a lot of websites are still based on implied consent, and other failures to comply with GDPR and other privacy laws abound.</p>
+
+<p>If you’re going to fumble the implementation of the consent banner, just be honest with yourself and skip it altogether. Or at least don’t write “we care about your privacy on it”.</p>
+
+<h2 id="5-i-dont-come-here-to-be-a-consumer">5. I don’t come here to be a “consumer”</h2>
+
+<p>I don’t go on the web to see a bunch of targeted ads. Maybe there are some people who do, but I’m not one of them.</p>
+
+<p>I spend a large part of my life online, and when moving around the web, I want to feel like an autonomous human person, just like I do when I take a walk outside. I don’t want to think of myself as a “consumer” who needs to be profiled.</p>
+
+<p>I think privacy should be your basic right whether you are online or offline, and if people encroach on it, doesn’t matter if it’s out of malice or carelessness, that’s bad.</p>
+
+<h2 id="what-of-it">What of it?</h2>
+
+<p>Who cares that I don’t like cookies? Well for advertizing molochs and social media giants I guess it doesn’t matter, because - again - they are in it for the money.</p>
+
+<p>BUT if you happen to own a site and my post convinced you to take a second look at how it uses cookies - or maybe even resign from a cookie or two??? - then it was all worth it. My goal is accomplished.</p>
+
+<p>Thank you for coming to my TED talk.</p>]]></content><author><name></name></author><category term="webdev" /><summary type="html"><![CDATA[I don’t like cookies.]]></summary></entry><entry><title type="html">Adding likes to static site with Lyket</title><link href="http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket.html" rel="alternate" type="text/html" title="Adding likes to static site with Lyket" /><published>2025-01-29T05:00:00+01:00</published><updated>2025-01-29T05:00:00+01:00</updated><id>http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket</id><content type="html" xml:base="http://localhost:4000/webdev/2025/01/29/adding-likes-with-lyket.html"><![CDATA[<p>If you scroll down to the bottom of this post, you will see a “clap” button.</p>
 
 <p>If you hit that button, a little animation should pop up, and the number of claps next to the button will increment.</p>
 
